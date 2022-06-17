@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+<div class="app">
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--separate">
+                        <a href="http://127.0.0.1:5500/index.html" class="header__navbar-trangchu">Trang chủ</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <span class="header__navbar-title--no-pointer">Kết nối</span>
+                        <a href="https://www.facebook.com/" target="blank" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-notify"> 
+                        <i class="header__navbar-icon far fa-bell"></i>
+                        Thông tin
+                        <div class="header__notify">
+                            <header class="header__notify-header">
+                                <h3>Một số điều cần biết</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href=""class="header__notify-link">
+                                        <img src="https://dogily.vn/wp-content/uploads/2019/08/Lua-chon-cac-shop-thu-cung-se-giup-ban-co-duoc-nhung-em-thu-cung-khoe-manh-nhat-1.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Tại sao nên lựa chọn mua tại shop thú cưng?</span>
+                                            <span class="header__notify-descriotion">Uy tín, có giấy phép đăng ký rõ ràng, chủng loại đa dạng...</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href=""class="header__notify-link">
+                                        <img src="https://dogily.vn/wp-content/uploads/2019/08/Cac-shop-thu-cung-uy-tin-thuong-co-so-luong-thu-cung-da-dang.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Tiêu chí của một shop thú cưng?</span>
+                                            <span class="header__notify-descriotion">Chủng loại đa dạng, có giấy chứng minh nguồn gốc thú cưng...</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href=""class="header__notify-link">
+                                        <img src="https://dogily.vn/wp-content/uploads/2019/08/Khi-mua-thu-cung-tai-cac-shop-uy-tin-ban-se-duoc-huong-nhieu-chinh-sach-uu-dai.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Tại sao shop được nhiều người tin tưởng</span>
+                                            <span class="header__notify-descriotion">Nhiều loại thú cưng mới mẻ với các chúng loại đa dạng, đảm bảo thú cưng khỏe mạnh...</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href=""class="header__notify-link">
+                                        <img src="https://dogily.vn/wp-content/uploads/2019/08/Dogily-Petshop-la-dia-chi-duoc-cac-tin-do-yeu-thu-cung-lua-chon.jpg" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Các bạn đang phân vân có nên mua thú cưng?</span>
+                                            <span class="header__notify-descriotion">Còn chần chờ gì nữa đến với shop chúng tôi, với những thú cưng dễ nuôi...</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            <footer class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                            </footer>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="./chitiet6.html" class="header__navbar-item-link">
+                            <i class="header__navbar-icon far fa-question-circle"></i>
+                            Trợ giúp
+                        </a>
+                    </li>
+                    <a href="./chitiet7.html" class="header__navbar-item--separate">
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                    </a>
+                    <a href="./chitiet8.html" class="header__navbar-item--strong-link">
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </a>
+                    <!--<li class="header__navbar-item header__navbar-user">
+                        <img src="https://yt3.ggpht.com/yti/ANoDKi5fOveADH8HDmmKct1sCBjkSWyCMBd4ZwBwz5vo=s88-c-k-c0x00ffffff-no-rj-mo" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Lê Kim Duyên</span>
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                                <a href="">Địa chỉ của tôi </a>
+                                <a href="">Đơn mua</a>
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </nav>
+            <div class="header-with-search">
+                <div class="header__logo">
+                   <a href="/" class="header__logo-link">
+                        <img class="header__logo-img"src="https://logoart.vn/blog/wp-content/uploads/2013/08/thiet-ke-logo-thu-cung-11.gif">
+                   </a>
+                </div>
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="" class="">Chó phốc sóc</a>
+                                    <a href="" class="">Mèo anh lông ngắn</a>
+                                    <a href="" class="">Chuột humter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__seach-select">
+                        <span class="header__seach-select-label">Trong shop</span>
+                        <i class="header__seach-select-icon fas fa-chevron-down"></i>
+                        <ul class="header__search-option">
+                            <li class="header__search-option-item header__search-option-item--active">
+                                <span>Trong shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                            <li class="header__search-option-item">
+                                <span>Ngoài shop</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="header__cart">
+                    <div class="header__cart-wrap">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <span class="header__cart-notice">3</span>
+                        <!--No cart: header__cart-list--no-cart -->
+                        <div class="header__cart-list">
+                           <img src="./assets/img/no-cart - Sao chép.png" alt="" class="header__cart-no-cart-img">
+                           <h4 class="header__cart-heading">Thú cưng đã thêm</h4>
+                           <ul class="header__cart-list-item">
+                               <li class="header__cart-item">
+                                   <img src="http://thichthucung.com/wp-content/uploads/tinh-cach-cho-phoc-soc-trang.jpg" alt="" class="header__cart-img">
+                                   <div class="header__cart-item-info">
+                                       <div class="header__cart-item-head">
+                                           <h5 class="header__cart-item-name">Chó phốc trắng</h5>
+                                           <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">3.500.000đ</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                           </div>
+                                       </div>
+                                       <div class="header__cart-item-body">
+                                           <span class="header__cart-item-description">Độ tuổi: 3 tháng tuổi</span>
+                                           <span class="header__cart-item-remove">Xóa</span>
+                                       </div>
+                                   </div>
+                               </li>
+                               <li class="header__cart-item">
+                                <img src="https://vpet.vn/upload/pet/pet-1617778270.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">Mèo tam thể</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                             <span class="header__cart-item-price">300.000đ</span>
+                                             <span class="header__cart-item-multiply">x</span>
+                                             <span class="header__cart-item-qnt">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__cart-item-body">
+                                        <span class="header__cart-item-description">Độ tuổi: 2 tháng tuổi</span>
+                                        <span class="header__cart-item-remove">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-item">
+                                <img src="https://image-us.eva.vn/upload/4-2020/images/2020-10-29/image6-1603965308-52-width600height400.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">Chuột humter trắng</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                             <span class="header__cart-item-price">600.000đ</span>
+                                             <span class="header__cart-item-multiply">x</span>
+                                             <span class="header__cart-item-qnt">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__cart-item-body">
+                                        <span class="header__cart-item-description">Độ tuổi: 8 tháng tuổi</span>
+                                        <span class="header__cart-item-remove">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                           </ul>
+                           <a class="header__cart-view-cart btn.btn--primary">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="app__container">
+       <div class="grid">
+            <div class="grid__row app__content ">
+                <div class="trangchitiet1_b">
+                    <div class="chitiet_trangchitiet1_a">
+                        <div class="trangchitiet1_a">
+                            <img class="ot__img" src="https://tunglocpet.com/wp-content/uploads/2020/09/mau-long-cho-akita-03.jpg" alt=""></img>
+                        </div>
+                        <ul class="ot">
+                            <li class="ot__ot1">
+                                <a href="http://127.0.0.1:5500/" class="ot__trangchu">Trang chủ</a>
+                            </li>
+                            <li class="ot1__ot1-ten">
+                                Akita vện
+                            </li>
+                            <li class="ot2-ot1">Giống: Đực</li>
+                            <li class="ot2-ot1">Giá: 19.000.000đ</li>
+                            <li class="ot2-ot1">Độ tuổi: 1 năm tuổi</li>
+                            <li class="ot2-ot1">Thành tiền: 0đ</li>
+                            <li class="ot3-ot1">
+                                <button class="ot3-ot1-ot1 ot3-ot1-ot1-1">Mua ngay</button>
+                                <button class="ot3-ot1-ot1 ot3-ot1-ot1-1">Giỏ hàng</button>
+                            </li>
+                            <li class="ot_danhmuc">
+                                Danh mục: Chó cảnh, Chó Nhật
+                            </li>
+                    </ul>
+                    </div>
+                    <div class="hinhanhthucung">
+                        <h4 class="trangchitiet_b-ot trangchitiet_b-ot1">
+                            ---Hình ảnh---
+                        </h4>
+                        <img src="https://sieupet.com/sites/default/files/akita7_0.jpg" alt="" class="trangchitiet1_b-img">
+                        <img src="http://akitavn.com/upload/public/bai%20viet%20ve%20akita/ban%20tieu%20chuan%20akita/4.jpg" alt="" class="trangchitiet1_b-img">
+                        <img src="https://azpet.com.vn/wp-content/uploads/2021/10/Akita-Ven-C12472-1.jpg" alt="" class="trangchitiet1_b-img">
+                    </div>
+                    <h4 class="trangchitiet_b-ot">
+                        ---Thông tin thú cưng---
+                    </h4>
+                    <nav class="thongtinsanpham">
+                        <ul class="ot1">
+                            <li class="ot1_ot1 ">Nguồn gốc</li>
+                            <li class="ot1_ot1 ">Phân loại</li>
+                            <li class="ot1_ot1 ">Kiểu lông</li>
+                            <li class="ot1_ot1">Đặc điểm</li>
+                            <li class="ot1_ot1">Cân nặng</li>
+                            <li class="ot1_ot1 ">Tuổi thọ</li>
+                            <li class="ot1_ot1">Tuổi sinh sản</li>
+                        </ul>
+                        <ul class="ot2">
+                            <li class="ot2-ot2">Nhật Bản</li>
+                            <li class="ot2-ot2">Chó Nhật</li>
+                            <li class="ot2-ot2">Lông ngắn, vằn đen</li>
+                            <li class="ot2-ot2">To lớn, tai nhỏ</li>
+                            <li class="ot2-ot2">32->59kg</li>
+                            <li class="ot2-ot2">10->15 năm</li>
+                            <li class="ot2-ot2">1->9 tuổi</li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Thú cưng bán chạy </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chó Alaska </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Mèo tam thể </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chuột humster vàng chanh</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chuột humster mắt đỏ</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Cá kiếm</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Danh mục thú cưng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chó cảnh</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Mèo cảnh</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Đồ ăn hạt dành cho mèo</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chuột cảnh</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Cá cảnh</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chim cảnh </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phụ kiện thú cưng </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Cát mèo</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Khay vệ sinh</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Danh mục tin tức </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Thú cưng chuẩn bị xuất chuồng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Thông tin khuyến mãi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Thức ăn thú cưng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Cách nuôi chó Alaska</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Cách nuôi chuột humster</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách giao hàng </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách bảo mật </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chính sách chung </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Liên kết mạng xã hội </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook-square"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-twitter"></i>
+                                Twitter 
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-pinterest-p"></i>
+                                Pintersrt
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Sản phẩm nổi bật</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Pate cho mèo gói 350g vị cá ngừ</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Pate cho mèo gói 1,2kg vị hải sản</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hạt cho chó</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Vòng cổ cho chó</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Chuồng cho humster</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Thức ăn cho cá</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phụ kiện trang trí bể cá noel</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">chuồng chim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grip">
+                <p class="footer__text">2021 - Shop thú cưng petville</p>
+            </div>
+        </div>
+    </footer>
+</div>
